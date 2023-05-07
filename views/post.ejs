@@ -1,5 +1,8 @@
 <%- include("partials/header") -%>
-    <h1><%= title %></h1>
+    <h1><%= postname %></h1>
 <p><%= content %></p>
+<form action="/delete" method="post" onsubmit="return confirm('Are you sure you want to remove this post?');">
+    <button type="submit" class="btn btn-primary" name="blog"  value="<%=postid%>">REMOVE POST</button>
+</form>
 
 <%- include("partials/footer")-%>

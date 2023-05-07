@@ -2,6 +2,9 @@
     padding-top: 70px;
     padding-bottom: 70px;
 }
+.navbar-brand{
+    font-size: 30px;
+}
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
